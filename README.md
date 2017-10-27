@@ -1,2 +1,3 @@
-# landing-page-training
-Learning BEM and advanced css
+## Landing Page "Natours"
+#### Advanced CSS3 training with Jonas Schmedtmann
+
