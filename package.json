@@ -1,0 +1,23 @@
+{
+  "name": "adv-css-training-project",
+  "version": "1.0.0",
+  "description": "Landing page ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anatol06/landing-page-training.git"
+  },
+  "keywords": [
+    "landing",
+    "page"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anatol06/landing-page-training/issues"
+  },
+  "homepage": "https://github.com/anatol06/landing-page-training#readme"
+}
