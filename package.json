@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/anatol06/landing-page-training/issues"
   },
-  "homepage": "https://github.com/anatol06/landing-page-training#readme"
+  "homepage": "https://github.com/anatol06/landing-page-training#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
 }
