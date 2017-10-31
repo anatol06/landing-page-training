@@ -69,6 +69,11 @@
         cursor: pointer;
         position: relative;
         padding: 4.5rem;
+        
+        @include respond(tab-port) {
+            padding:.7rem 0 0 4.5rem;
+            display: inline-block;
+        }
     }
 
     &__radio-button {
@@ -80,7 +85,10 @@
         position: absolute;
         left: 0;
         top: 4rem;
-
+        
+        @include respond(tab-port) {
+            top: .4rem;
+        }
 
         &::after {
             @include absCenter;

@@ -492,6 +492,10 @@ body {
   cursor: pointer;
   position: relative;
   padding: 4.5rem; }
+  @media (max-width: 56.25em) {
+    .form__radio-label {
+      padding: .7rem 0 0 4.5rem;
+      display: inline-block; } }
 
 .form__radio-button {
   display: inline-block;
@@ -502,6 +506,9 @@ body {
   position: absolute;
   left: 0;
   top: 4rem; }
+  @media (max-width: 56.25em) {
+    .form__radio-button {
+      top: .4rem; } }
   .form__radio-button::after {
     position: absolute;
     top: 50%;
