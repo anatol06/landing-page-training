@@ -35,26 +35,50 @@
     }
 
     .col-1-of-2 {
+        width: -webkit-calc((100% - #{$gutter-horisontal}) / 2);
+        width: expression((100% - #{$gutter-horisontal}) / 2);
+        width: -moz-calc((100% - #{$gutter-horisontal}) / 2);
+        width: -o-calc((100% - #{$gutter-horisontal}) / 2);
         width: calc((100% - #{$gutter-horisontal}) / 2);
     }
 
     .col-1-of-3 {
+        width: -webkit-calc((100% - 2 * #{$gutter-horisontal}) / 3);
+        width: expression((100% - 2 * #{$gutter-horisontal}) / 3);
+        width: -moz-calc((100% - 2 * #{$gutter-horisontal}) / 3);
+        width: -o-calc((100% - 2 * #{$gutter-horisontal}) / 3);
         width: calc((100% - 2 * #{$gutter-horisontal}) / 3);
     }
 
     .col-2-of-3 {
+        width: -webkit-calc(2 * ((100% - 2 * #{$gutter-horisontal}) / 3) + #{$gutter-horisontal});
+        width: expression(2 * ((100% - 2 * #{$gutter-horisontal}) / 3) + #{$gutter-horisontal});
+        width: -moz-calc(2 * ((100% - 2 * #{$gutter-horisontal}) / 3) + #{$gutter-horisontal});
+        width: -o-calc(2 * ((100% - 2 * #{$gutter-horisontal}) / 3) + #{$gutter-horisontal});
         width: calc(2 * ((100% - 2 * #{$gutter-horisontal}) / 3) + #{$gutter-horisontal});
     }
 
     .col-1-of-4 {
+        width: -webkit-calc((100% - 3 * #{$gutter-horisontal}) / 4);
+        width: expression((100% - 3 * #{$gutter-horisontal}) / 4);
+        width: -moz-calc((100% - 3 * #{$gutter-horisontal}) / 4);
+        width: -o-calc((100% - 3 * #{$gutter-horisontal}) / 4);
         width: calc((100% - 3 * #{$gutter-horisontal}) / 4);
     }
 
     .col-2-of-4 {
+        width: -webkit-calc(2 * ((100% - 3 * #{$gutter-horisontal}) / 4) + #{$gutter-horisontal});
+        width: expression(2 * ((100% - 3 * #{$gutter-horisontal}) / 4) + #{$gutter-horisontal});
+        width: -moz-calc(2 * ((100% - 3 * #{$gutter-horisontal}) / 4) + #{$gutter-horisontal});
+        width: -o-calc(2 * ((100% - 3 * #{$gutter-horisontal}) / 4) + #{$gutter-horisontal});
         width: calc(2 * ((100% - 3 * #{$gutter-horisontal}) / 4) + #{$gutter-horisontal});
     }
 
     .col-3-of-4 {
+        width: -webkit-calc(3 * ((100% - 3 * #{$gutter-horisontal}) / 4) + 2 * #{$gutter-horisontal});
+        width: expression(3 * ((100% - 3 * #{$gutter-horisontal}) / 4) + 2 * #{$gutter-horisontal});
+        width: -moz-calc(3 * ((100% - 3 * #{$gutter-horisontal}) / 4) + 2 * #{$gutter-horisontal});
+        width: -o-calc(3 * ((100% - 3 * #{$gutter-horisontal}) / 4) + 2 * #{$gutter-horisontal});
         width: calc(3 * ((100% - 3 * #{$gutter-horisontal}) / 4) + 2 * #{$gutter-horisontal});
     }
 }

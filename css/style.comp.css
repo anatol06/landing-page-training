@@ -709,16 +709,40 @@ body {
       .row [class^="col-"] {
         width: 100% !important; } }
   .row .col-1-of-2 {
+    width: -webkit-calc((100% - 60px) / 2);
+    width: expression((100% - 60px) / 2);
+    width: -moz-calc((100% - 60px) / 2);
+    width: -o-calc((100% - 60px) / 2);
     width: calc((100% - 60px) / 2); }
   .row .col-1-of-3 {
+    width: -webkit-calc((100% - 2 * 60px) / 3);
+    width: expression((100% - 2 * 60px) / 3);
+    width: -moz-calc((100% - 2 * 60px) / 3);
+    width: -o-calc((100% - 2 * 60px) / 3);
     width: calc((100% - 2 * 60px) / 3); }
   .row .col-2-of-3 {
+    width: -webkit-calc(2 * ((100% - 2 * 60px) / 3) + 60px);
+    width: expression(2 * ((100% - 2 * 60px) / 3) + 60px);
+    width: -moz-calc(2 * ((100% - 2 * 60px) / 3) + 60px);
+    width: -o-calc(2 * ((100% - 2 * 60px) / 3) + 60px);
     width: calc(2 * ((100% - 2 * 60px) / 3) + 60px); }
   .row .col-1-of-4 {
+    width: -webkit-calc((100% - 3 * 60px) / 4);
+    width: expression((100% - 3 * 60px) / 4);
+    width: -moz-calc((100% - 3 * 60px) / 4);
+    width: -o-calc((100% - 3 * 60px) / 4);
     width: calc((100% - 3 * 60px) / 4); }
   .row .col-2-of-4 {
+    width: -webkit-calc(2 * ((100% - 3 * 60px) / 4) + 60px);
+    width: expression(2 * ((100% - 3 * 60px) / 4) + 60px);
+    width: -moz-calc(2 * ((100% - 3 * 60px) / 4) + 60px);
+    width: -o-calc(2 * ((100% - 3 * 60px) / 4) + 60px);
     width: calc(2 * ((100% - 3 * 60px) / 4) + 60px); }
   .row .col-3-of-4 {
+    width: -webkit-calc(3 * ((100% - 3 * 60px) / 4) + 2 * 60px);
+    width: expression(3 * ((100% - 3 * 60px) / 4) + 2 * 60px);
+    width: -moz-calc(3 * ((100% - 3 * 60px) / 4) + 2 * 60px);
+    width: -o-calc(3 * ((100% - 3 * 60px) / 4) + 2 * 60px);
     width: calc(3 * ((100% - 3 * 60px) / 4) + 2 * 60px); }
 
 .header {
